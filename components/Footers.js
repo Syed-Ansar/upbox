@@ -28,14 +28,11 @@ const Footers = () => {
 </div>
 
 </div>
-<div className='w-full flex justify-center items-center border-2 border-gray-500 border-t-1 pb-10'>
-<div className='flex flex-col md:items-start md:justify-center md:flex-row-reverse justify-center space-y-2 mt-2'>
-    <p className='md:ml-5 cursor-pointer'>Terms</p>
-    <p className='md:ml-5 cursor-pointer'>Privacy</p>
-    <p className='w-[400px] md:w-[100%] cursor-pointer'>
-    © 2020 Quest AI. Upbox is a Sample Project and open source design project free for personal and commercial use.
-    </p>
-</div>
+<div className='flex flex-col lg:flex-row lg:items-center lg:justify-center space-y-2 mt-3 border-2 border-gray-500 border-t-1 pb-10 pl-10'>
+        <p className='cursor-pointer md:mr-5 mt-3 md:mt-0'>Terms</p>
+        <p className='cursor-pointer md:mr-5'>Privacy</p>
+        <p className='cursor-pointer'>© 2020 Quest AI. Upbox is a Sample Project and open source design project free for personal and commercial use.
+        </p>
 </div>
 
 </div>
