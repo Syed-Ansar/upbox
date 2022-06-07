@@ -14,3 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-image{
+  width: 200px;
+  height: 50px;
+}
+.nav-burger{
+  width: 30px;
+  height: 30px;
+}
+.navbar{
+  padding: 30px;
+  width: 100vw;
+  height: 90px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
