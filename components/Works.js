@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react'
-import Workers from './workers'
+import Workers from './Workers'
 
 const Works = () => {
 
